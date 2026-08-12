@@ -1,8 +1,8 @@
 const WebSocket = require('ws');
 
 // Configurações do Bot
-const SERVER_URL = 'http://localhost:3000';
-const WS_URL = 'ws://localhost:3000/wss';
+const SERVER_URL = 'http://26.160.61.212:3000';
+const WS_URL = 'ws://26.160.61.212:3000/wss';
 const API_KEY = 'dda285d7-6685-4c74-8982-7b3019e962a3'; // Chave cadastrada no servidor
 
 let ws;
