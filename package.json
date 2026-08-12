@@ -1,0 +1,22 @@
+{
+  "name": "meu-bot-chat",
+  "version": "1.0.0",
+  "description": "Bot para integração via Express e WebSockets",
+  "main": "bot.js",
+  "scripts": {
+    "start": "node bot.js",
+    "dev": "node --watch bot.js"
+  },
+  "keywords": [
+    "bot",
+    "websocket",
+    "express",
+    "chat"
+  ],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "node-fetch": "^2.7.0",
+    "ws": "^8.18.0"
+  }
+}
